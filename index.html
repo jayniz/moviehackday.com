@@ -10,6 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Corben:bold' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     
     <style type="text/css">
 
@@ -49,17 +50,11 @@
       text-shadow: 0px -1px 0px white;
     } 
 
-    p a:hover {
+    a:hover {
       text-decoration: underline;
     }
 
-    #poster {
-      border-right: 1px solid #aaaaaa;
-      border-bottom: 1px solid #aaaaaa;
-      border-top: 1px solid #dddddd;
-      border-left: 1px solid #dddddd;
-      padding: 0;
-    }
+
 
     #poster img {
       margin:0;
@@ -84,11 +79,29 @@
     .vevent {
       padding-bottom: 10px;
       font-weight: bolder;
-      font-size: 1.4em;
+      font-size: 2em;
       font-style:italic;
+      text-align: center; 
+      font-family: Lobster;
+      color: #E05A00;
+      text-shadow: 0px -1px 0px #444444;   
+    }
+    
+    .avatars {
+      padding-top: 30px;
       text-align: center;
     }
-
+    
+    .avatars img {
+      margin-bottom: -4px;
+    }
+    
+    .avatars a {
+      background-color: white;
+      color: black;
+      text-decoration: none;
+    }
+    
 
     </style>
   </head>
@@ -115,10 +128,10 @@
         Movie Hack Day 2011
       </h1>
       <p>
-        The <a href="http://twitter.com/moviehackday">@moviehackday</a> is a full weekend of hacking on all things movies. Anything from building your own recommender system, using existing software like Mahout to create cool new applications or throwing together a couple of movie APIs and making the next killer app. And everybody loves fancy data visualizations, right?
+        The <a href="http://twitter.com/moviehackday">@moviehackday</a> is a full weekend of hacking on all things movies. Anything from building your own recommender system with Mahout, collecting and analyzing movie scripts or throwing together a couple of movie APIs to create something fun or useful (or both). And hey, we all love fancy data visualizations, right?
       </p>
       <p>
-        It takes place on the weekend before the berlinbuzzwords in the offices of moviepilot, a movie recommendation startup based in Berlin. We’ll be hacking Saturday, Saturnight and through the whole Sunday (beer and pizza will be supplied). We might also watch a movie or two.
+        It all takes place on the weekend before the <a href="http://berlinbuzzwords.de">berlinbuzzwords</a> conference. We'll meet in the offices of moviepilot, a movie recommendation community based in beautiful Berlin-Kreuzberg. Hacking will occur on Saturday, Saturnight and through the whole Sunday (beer and pizza will be supplied). We might also watch a movie or two.
       </p>
     </div>
     <div>
@@ -149,17 +162,34 @@
         What to bring
       </h1>
       <p>
-        Enthusiasm, creativity and expertise and your laptop (or other hardware you need) preloaded with your favourite programming tools. Registration: a) Hacker (Sat &amp; Sun) - participate in the hacking! b) Slacker (Sun afternoon) - view the demos
+        Enthusiasm, creativity, expertise and your laptop (or other hardware you need) preloaded with your favourite programming tools. Registration: a) Hacker (Sat &amp; Sun) - participate in the hacking! b) Slacker (Sun afternoon) - view the demos
       </p>
     </div>
     <div>
       <h1>Who?</h1>
       <p>Movie Hack Day is an event organized by Moviepilot GmbH and the Competence Center "Information Retrieval &amp; Machine Learning" of the TU-Berlin, held in association with the berlin buzzwords
-        conference. Your friendly hosts are <a href="http://twitter.com/alansaid">@alansaid</a>, <a href="http://twitter.com/jannis">@jannis</a> and <a href="http://twitter.com/matip">@matip</a>.
+        conference.
       </p>
-      <a href="http://moviepilot.com"><img src="http://blog.moviepilot.de/wp-content/uploads/2009/02/moviepilot_logo-white_150x43px_72dpi.jpg" alt="moviepilot" /></a>
+      <a href="http://moviepilot.com"><img src="moviepilot.jpg" alt="moviepilot" /></a>
       <a href="http://www.dai-labor.de/irml/forschung/"><img src="http://www.dai-labor.de/fileadmin/templates/Page/dai-labor/images/logo_dai.jpg" alt="DAI Lab" /></a>
       <a href="http://berlinbuzzwords.de"><img src="buzzwords.png" style="padding-bottom:10px" alt="Berlinbuzzwords"></a>
     </div>
+    <div class="avatars">
+      Your friendly hosts are <a href="http://twitter.com/alansaid"><img src="alansaid_mini.jpg" alt="@alansaid"/> @alansaid</a>, <a href="http://twitter.com/jannis"><a href="http://twitter.com/alansaid"><img src="jannis_mini.png" alt="@jannis"/> @jannis</a> and <a href="http://twitter.com/matip"> <a href="http://twitter.com/matip"><img src="matip_mini.gif" alt="@alansaid"/>@matip</a>.
+    </div>
+    <!--
+    <div>
+      <h1>Share the love</h1>
+      <p>
+        Some different poster sizes
+      </p>
+    </div>
+    <div>
+      <h1>Why the poster?</h1>
+      <p>
+        Come on, Walter!
+      </p>
+    </div>
+    -->
   </body>
 </html>
